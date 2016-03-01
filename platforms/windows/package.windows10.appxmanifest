@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Package IgnorableNamespaces="uap mp" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10">
-    <Identity Name="io.cordova.hellocordova" Publisher="CN=$username$" Version="0.0.1.0" />
-    <mp:PhoneIdentity PhoneProductId="0b8bccc0-dfc9-11e5-9be3-49677a52616a" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+    <Identity Name="com.phonegap.helloworld" Publisher="CN=$username$" Version="1.0.0.0" />
+    <mp:PhoneIdentity PhoneProductId="76c451f0-dfcf-11e5-957c-1d862ee8dfd7" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
     <Properties>
-        <DisplayName>HelloCordova</DisplayName>
-        <PublisherDisplayName>Apache Cordova Team</PublisherDisplayName>
+        <DisplayName>Hello World</DisplayName>
+        <PublisherDisplayName>PhoneGap Team</PublisherDisplayName>
         <Logo>images\StoreLogo.png</Logo>
     </Properties>
     <Dependencies>
@@ -14,10 +14,10 @@
         <Resource Language="x-generate" />
     </Resources>
     <Applications>
-        <Application Id="io.cordova.hellocordova" StartPage="ms-appx-web://io.cordova.hellocordova/www/index.html">
-            <uap:VisualElements BackgroundColor="#464646" Description="CordovaApp" DisplayName="HelloCordova" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+        <Application Id="com.phonegap.helloworld" StartPage="ms-appx-web://com.phonegap.helloworld/www/index.html">
+            <uap:VisualElements BackgroundColor="#464646" Description="CordovaApp" DisplayName="Hello World" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
                 <uap:SplashScreen Image="images\splashscreen.png" />
-                <uap:DefaultTile ShortName="HelloCordova" Square310x310Logo="images\Square310x310Logo.png" Square71x71Logo="images\Square71x71Logo.png" Wide310x150Logo="images\Wide310x150Logo.png" />
+                <uap:DefaultTile ShortName="Hello World" Square310x310Logo="images\Square310x310Logo.png" Square71x71Logo="images\Square71x71Logo.png" Wide310x150Logo="images\Wide310x150Logo.png" />
                 <uap:InitialRotationPreference>
                     <uap:Rotation Preference="portrait" />
                     <uap:Rotation Preference="landscape" />
@@ -31,6 +31,5 @@
     </Applications>
     <Capabilities>
         <Capability Name="internetClient" />
-        <DeviceCapability Name="location" />
     </Capabilities>
 </Package>

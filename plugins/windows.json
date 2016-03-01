@@ -7,11 +7,8 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "HelloCordova"
-        },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "HelloCordova"
+            "PACKAGE_NAME": "Hello World"
         }
     },
     "dependent_plugins": {}
